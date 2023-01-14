@@ -6,8 +6,7 @@ if game.PlaceId == 6032399813 or game.PlaceId == 6473861193 or game.PlaceId == 5
         local lives = game:GetService("Workspace").Live
         local charcreator = game:GetService("Workspace").CharacterCreator
         local TimeNow = DateTime.now()
-        local discordwebhook = "https://discord.com/api/webhooks/1063788722656645131/tEpmTsg_WgchoZVUNkfSwIKA7nJZQSAdoEMss_NUHFUdMirneIj4EpP7TkdJFbKhNu7t"
-    
+
         print(#players)
 
         --Player Name
