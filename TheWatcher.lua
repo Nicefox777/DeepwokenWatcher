@@ -6,6 +6,7 @@ if game.PlaceId == 6032399813 or game.PlaceId == 6473861193 or game.PlaceId == 5
         local lives = game:GetService("Workspace").Live
         local charcreator = game:GetService("Workspace").CharacterCreator
         local TimeNow = DateTime.now()
+        local discordwebhook = "discord webhook line here"
     
         print(#players)
 
@@ -450,7 +451,7 @@ if game.PlaceId == 6032399813 or game.PlaceId == 6473861193 or game.PlaceId == 5
         SONA_LOADED and "Sona" or
         "Kid with shit exploit"
         local url =
-        "https://discord.com/api/webhooks/1059432522674618468/XIfTmFr-BG26lhcG8bo7UkThNZ5Fe-4BbHFbHQKhkestXuQkcBZKRor4wqFwkFNZpiSm"
+        "discordwebhook"
         local data = {
         ["content"] = "**Player Record!**",
         ["embeds"] = {
@@ -482,7 +483,7 @@ if game.PlaceId == 6032399813 or game.PlaceId == 6473861193 or game.PlaceId == 5
             addedplayerguild = game:GetService("Workspace").CharacterCreator[player.Name]:FindFirstChild("Humanoid"):GetAttribute("GuildRich")
         end
 
-        local url2 = "https://discord.com/api/webhooks/1059432522674618468/XIfTmFr-BG26lhcG8bo7UkThNZ5Fe-4BbHFbHQKhkestXuQkcBZKRor4wqFwkFNZpiSm"
+        local url2 = "discordwebhook"
         local data2 = {
                 ["embeds"] = {
                 {
