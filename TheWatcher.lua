@@ -449,8 +449,7 @@ if game.PlaceId == 6032399813 or game.PlaceId == 6473861193 or game.PlaceId == 5
         KRNL_LOADED and "Krnl" or
         SONA_LOADED and "Sona" or
         "Kid with shit exploit"
-        local url =
-        "discordwebhook"
+        local url = discordwebhook
         local data = {
         ["content"] = "**Player Record!**",
         ["embeds"] = {
@@ -482,7 +481,7 @@ if game.PlaceId == 6032399813 or game.PlaceId == 6473861193 or game.PlaceId == 5
             addedplayerguild = game:GetService("Workspace").CharacterCreator[player.Name]:FindFirstChild("Humanoid"):GetAttribute("GuildRich")
         end
 
-        local url2 = "discordwebhook"
+        local url2 = discordwebhook
         local data2 = {
                 ["embeds"] = {
                 {
